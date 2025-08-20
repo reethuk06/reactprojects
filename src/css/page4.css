@@ -1,0 +1,33 @@
+header{
+   height: 40px;
+   background:chartreuse;
+   color: rgb(255, 0, 0);
+   line-height: 50px;
+}
+section{
+    height: calc(100%-70px);
+}
+footer{
+   height: 30px;
+    line-height: 30px;
+    font-size: 8pt;
+    color: white;
+    background: linear-gradient(90deg, red 0%, blue 100%);
+    text-align: center;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo{
+     font-size: 10pt;
+     font-weight: bold;
+     margin-left: 0px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
